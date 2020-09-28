@@ -33,6 +33,10 @@
     display: grid;
 }
 
+.widget-container-full, .widget-container-half {
+    width: 95vw;
+}
+
 @media (min-width: 768px) {
     .main {
         grid-template-areas: 50%;
@@ -42,5 +46,11 @@
     }
     .daily, .members, .message {
         grid-column: 1 / span 1;
+    }
+    .widget-container-full {
+        width: 90vw;
+    }
+    .widget-container-half {
+        width: 45vw;
     }
 }
