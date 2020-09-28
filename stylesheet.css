@@ -37,4 +37,10 @@
     .main {
         grid-template-areas: 50%;
     }
+    .traffic, .social {
+        grid-column: 1 / span 2;
+    }
+    .daily, .members, .message {
+        grid-column: 1 / span 1;
+    }
 }
