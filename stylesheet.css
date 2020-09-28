@@ -28,3 +28,13 @@
             "navigation main";
     }
 }
+
+.main {
+    display: grid;
+}
+
+@media (min-width: 768px) {
+    .main {
+        grid-template-areas: 50%;
+    }
+}
