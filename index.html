@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/stylesheet.css">
     <link rel="stylesheet" href="css/switch.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
     <title>Document</title>
 </head>
 <body class="grid-container">
@@ -16,7 +16,7 @@
             <div class="align-right">
                 <img src="icons/icon-bell.svg" alt="bell icon" width="40px">
                 <!-- container element for our notifications -->
-                <img src="images/member-2.jpg" alt="profile-image" class="profile-image">
+                <img src="images/member-2.jpg" alt="profile-image" class="profile-image-header">
                 <h3>John Sullivan</h3>
             </div>
         </div>
@@ -49,6 +49,7 @@
     </nav>
     
     <nav></nav>
+
     <main class="main">
         <!-- line graph charts  -->
         <section class="traffic">
@@ -234,17 +235,23 @@
 
         <!-- local settings widget -->
         <section class="settings">
-            <h3>Settings</h3>
 
             <!-- custom CSS toggle code -->
             <fieldset>
                 <legend>SETTINGS</legend>
-                <div class="switch-toggle switch-material">
-                  <input id="notifications" name="email" type="radio" checked>
-                  <label for="notifications" onclick="">Email Notifications</label>
-              
-                  <input id="month" name="view" type="radio">
-                  <label for="month" onclick="">Month</label>
+                <div>
+                    <label for="check1" class="toggle-label">Send Email Notifications
+                      <input class="toggle-switch" id="check1" type="checkbox">
+                      <span class="toggle-state"></span>
+                    </label>
+                </div>
+
+                <div>
+                    <label for="check2" class="toggle-label">Set Profile to Public
+                      <input class="toggle-switch" id="check2" type="checkbox">
+                      <span class="toggle-state"></span>
+                    </label>
+                </div>
               
                   <a></a>
                 </div>
