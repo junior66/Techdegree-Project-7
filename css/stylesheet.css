@@ -25,6 +25,10 @@
     border-radius: 50%;
 }
 
+.twitter-svg {
+    scale: .1;
+}
+
 @media (min-width: 768px) {
     .grid-container {
         grid-template-columns: 55px 1fr;
