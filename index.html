@@ -8,15 +8,15 @@
     <title>Document</title>
 </head>
 <body class="grid-container">
-    <header>
-        <h1></h1>
+    <header class="header">
+        <h1>YourApp</h1>
         <div>
-           <img src="icons/icon-bell.svg" alt="bell icon">
+           <img src="icons/icon-bell.svg" alt="bell icon" width="40px">
            <div>
                <!-- container element for our notifications -->
            </div>
-           <img src="" alt="">
-           <h3></h3> 
+           <img src="images/member-2.jpg" alt="profile-image" class="profile-image">
+           <h3>John Sullivan</h3> 
         </div>
         <div class="main-header"> <!--row--> 
             <h2 class="headline">Dashboard</h2>
@@ -30,40 +30,38 @@
         </div>
     </header>
     
-    <nav>
+    <nav class="navigation">
+        <a href="#">
+            <img src="icons/icon-dashboard.svg" alt="Members">
+        </a>
         <a href="#">
             <img src="icons/icon-members.svg" alt="Members">
+        </a>
+        <a href="#">
+            <img src="icons/icon-visits.svg" alt="Members">
         </a>
         <a href="#">
             <img src="icons/icon-settings.svg" alt="Members">
         </a>
-        <a href="#">
-            <img src="icons/icon-members.svg" alt="Members">
-        </a>
-        <a href="#">
-            <img src="icons/icon-members.svg" alt="Members">
-        </a>
     </nav>
     
     <nav></nav>
-    <main>
+    <main class="main">
         <!-- line graph charts  -->
-        <img src="https://placeimg.com/640/480/tech" alt="placeholder">
-        <img src="https://placeimg.com/640/480/tech" alt="placeholder">
-        <img src="https://placeimg.com/640/480/tech" alt="placeholder">
         <section class="traffic">
             <div class="traffic-header">
                 <h3>Traffic</h3>
                 <ul class="traffic-nav">
                     <li class="traffic-nav-link">Hourly</li>
                     <li class="traffic-nav-link">Daily</li>
-                    <li class="traffic-nav-link avtive">Weekly</li>
+                    <li class="traffic-nav-link active">Weekly</li>
                     <li class="traffic-nav-link">Monthly</li>
                 </ul>
             </div>
             <div class="widget-container-full">
                 <!-- element line graph will attach to -->
                 <canvas id="traffic-chart"></canvas>
+                <img src="https://placeimg.com/640/480/tech" alt="placeholder">
             </div>
         </section>
         <!-- bar graph -->
@@ -72,6 +70,7 @@
             <div class="widget-container-half">
                 <!-- element bar graph will attach to -->
                 <canvas class="daily-chart"></canvas>
+                <img src="https://placeimg.com/640/480/tech" alt="placeholder">
             </div>
         </section>
         <section class="mobile">
@@ -79,6 +78,7 @@
             <div class="widget-container-half">
                 <!-- element doughnut chart will attach to -->
                 <canvas class="doughnut-chart"></canvas>
+                <img src="https://placeimg.com/640/480/tech" alt="placeholder">
             </div>
         </section>
         <div class="social-container">
@@ -216,6 +216,7 @@
                 <p>&gt;</p>
             </div>
         </section>
+
         <!-- messaging widget -->
         <section class="message">
             <h3>Message User</h3>
