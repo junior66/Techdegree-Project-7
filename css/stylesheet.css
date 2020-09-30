@@ -1,3 +1,20 @@
+* {
+  border: 1px solid red;  
+}
+
+
+.your-app, .profile-name, .headline {
+    display: inline-block;
+}
+
+.your-app {
+    margin-right: 70px;
+}
+
+.bell-icon {
+    margin-right: 30px;
+}
+
 .header {
     grid-area: header;
 }
@@ -11,7 +28,7 @@
 }
 
 .profile-image-header {
-    width: 15%;
+    width: 50px;
     border-radius: 50%;
 }
 
