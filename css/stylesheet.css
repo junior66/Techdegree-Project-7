@@ -21,10 +21,11 @@
 
 .navigation {
     grid-area: navigation;
+    text-align: center;
 }
 
 .navigation img {
-    width: 50%;
+    width: 20%;
 }
 
 .search-bar {
