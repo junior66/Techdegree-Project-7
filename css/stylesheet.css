@@ -8,7 +8,7 @@
 }
 
 .your-app {
-    margin-right: 70px;
+    margin-right: 15%;
 }
 
 .bell-icon {
@@ -21,6 +21,10 @@
 
 .navigation {
     grid-area: navigation;
+}
+
+.search-bar {
+    grid-area: search bar;
 }
 
 .main {
