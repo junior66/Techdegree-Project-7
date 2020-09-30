@@ -23,6 +23,10 @@
     grid-area: navigation;
 }
 
+.navigation img {
+    width: 50%;
+}
+
 .search-bar {
     grid-area: search bar;
 }
